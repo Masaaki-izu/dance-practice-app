@@ -51,6 +51,4 @@ Flutterで作成したダンス練習用アプリです。
 
 ## 動作イメージ
 
-## 動作イメージ
-
-![screenshot](assets/dance2.mp4)
+![screenshot](assets/screenshot.png)
