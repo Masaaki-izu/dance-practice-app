@@ -1,16 +1,54 @@
-# dance_practice_app
+# Dance Practice App
 
-A new Flutter project.
+Flutterで作成したダンス練習用アプリです。  
+動画を再生しながら、速度変更やカウント表示が可能です。
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 機能
 
-A few resources to get you started if this is your first Flutter project:
+- 動画ファイルの読み込み（端末から選択）
+- 動画の再生 / 一時停止
+- 再生速度変更（0.5x〜1.5x）
+- カウント表示（1秒ごと）
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 使用技術
+
+- Flutter
+- Dart
+- video_player
+- image_picker
+
+---
+
+## 対応環境
+
+- Android
+- Web（Chrome）
+
+※ 一部動画形式（movなど）はWebで再生できない場合があります
+
+---
+
+## 工夫した点
+
+- Webとモバイルで動画読み込み処理を分岐
+- 動画上にカウントを重ねて表示（Stack使用）
+- 再生状態と連動したカウント制御
+
+---
+
+## 今後の改善予定
+
+- シークバー追加
+- BPMに合わせたカウント機能
+- mov → mp4 自動変換（ffmpeg連携）
+- UI改善
+
+---
+
+## 動作イメージ
+
+（ここにスクリーンショット追加予定）
