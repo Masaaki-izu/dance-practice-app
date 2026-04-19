@@ -83,4 +83,5 @@
 ![screenshot](assets/screenshot.png)
 ## ▶️ デモ動画
 
-※現在準備中（後日公開予定）
+##※現在準備中（後日公開予定）
+[動画を見る](assets/dance2.mp4)
